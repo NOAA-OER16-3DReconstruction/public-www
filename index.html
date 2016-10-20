@@ -1,41 +1,45 @@
 ---
-layout: default
 ---
 
+<!-- This is the only page with a big header, so I've made it non-template
+     arguably, I could have done a one-off template/header for this page -->
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>CamHD Analysis by CamHD-Analysis</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
   <body>
-    <section class="page-header">
+
+    <section class="big-page-header">
       <h1 class="project-name">CamHD Analysis</h1>
       <h2 class="project-tagline">Public Website at http://camhd-analysis.github.io/public-www/</h2>
-      <!-- <a href="https://github.com/CamHD-Analysis/public-www" class="btn">View on GitHub</a> -->
-      <!-- <a href="https://github.com/CamHD-Analysis/public-www/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/CamHD-Analysis/public-www/tarball/master" class="btn">Download .tar.gz</a> -->
     </section>
 
-    <section class="main-content">
+    <main class="main-content" aria-label="Content">
+      <div class="wrapper">
 
-<h3>
-<a id="jekyll-posts" class="anchor" href="#welcome-to-github-pages" aria-hidden="true">
-<span aria-hidden="true" class="octicon octicon-link"></span></a>Latest News</h3>
 
-      {% for post in site.posts %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}:</span>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        <h3>
+        <a id="jekyll-posts" class="anchor" href="#welcome-to-github-pages" aria-hidden="true">
+        <span aria-hidden="true" class="octicon octicon-link"></span></a>Latest News</h3>
 
-            <p>{{ post.excerpt }}</p>
-        </li>
-      {% endfor %}
+          {% for post in site.posts %}
+            <li>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}:</span>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+
+                <p>{{ post.excerpt }}</p>
+            </li>
+          {% endfor %}
+
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
 
       <!-- <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
@@ -61,10 +65,3 @@ layout: default
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
 
 <p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p> -->
-
-
-    </section>
-
-
-  </body>
-</html>
