@@ -4,18 +4,18 @@ Bundler.require(:default)
 # baseurl = "amarburg/site"
 port = 4001
 
+serve_args = %w( jekyll server --incremental )
+serve_args << %W( --port #{port}) if port != 4000
+
 desc 'Serve pages as on the webhost'
 task :serve do
-    args = %w( jekyll server --incremental )
-    args << %W( --port #{port})
-
-  sh args.join(' ')
+  sh serve_args.join(' ')
 #  sh "jekyll serve -d _site/#{baseurl} -b /#{baseurl} --incremental"
 end
 
 desc 'Serve all pages (future and drafts)'
 task :serve_all do
-  sh "jekyll serve --incremental --drafts --future"
+  sh (serve_args + %w(--drafts --future)).join(' ')
 #  sh "jekyll serve -d _site/#{baseurl} -b /#{baseurl} --incremental --drafts --future"
 end
 
