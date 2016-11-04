@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Project Specification
-permalink: /pm/spec/
+permalink: /pm/specification/
 ---
