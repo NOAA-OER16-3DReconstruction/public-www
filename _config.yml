@@ -20,10 +20,15 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/public-www" # the subpath of your site, e.g. /blog
 url: "https://noaa-oer16-3dreconstruction.github.io/" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
-#github_username:  jekyll
+github_username:  amarburg
 
 # Build settings
 markdown: kramdown
 theme: minima
 
 include: ["_pages"]
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
