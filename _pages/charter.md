@@ -4,9 +4,11 @@ title: Project Charter
 permalink: /pm/charter/
 ---
 
-__Current Version:__ 10 November 2016
+__Version:__ 10 November 2016
 
 History available through [Github](https://github.com/NOAA-OER16-3DReconstruction/public-www/tree/gh-pages/_pages/charter.md)
+
+----
 
 # Project Title: 3D Reconstruction from ROV Camera Arrays of Opportunity
 
@@ -16,7 +18,9 @@ __Project End Date:__  31 October 2017
 
 ## Project Description
 
-Produce 3D reconstructions from archival OER video from the _Deep Discoverer (D2)_ ROV and _Seirios_ vehicles.    Show the utility of 3D reconstruction for public outreach and for achieving science goals.   
+Produce 3D reconstructions from archival OER video from the _Deep Discoverer (D2)_ ROV and _Seirios_ vehicles.    
+
+Show the utility of 3D reconstruction for public outreach and for science goals.   
 
 ## Project Boundaries
 

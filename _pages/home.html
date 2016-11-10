@@ -12,7 +12,7 @@ permalink: /
   <body>
 
     <section class="big-page-header">
-      <h1 class="project-name">NOAA EOR: 3D Reconstruction from ROV Camera Arrays of Opportunity</h1>
+      <a href={{ "/" | prepend: site.baseurl }}><h1 class="project-name">3D Reconstruction from ROV Camera Arrays of Opportunity</h1></a>
     </section>
 
     <main class="main-content" aria-label="Content">
@@ -32,10 +32,17 @@ permalink: /
             </li>
           {% endfor %}
 
+          <hline>
 
-          <!-- <h3>
-          <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true">
-          <span aria-hidden="true" class="octicon octicon-link"></span></a>An Introduction</h3> -->
+          <h3>
+          <a id="static-pages" class="anchor" href="#static-pages" aria-hidden="true">
+          <span aria-hidden="true" class="octicon octicon-link"></span></a>Pages</h3>
+
+            <ul>
+            <li>
+              <a class="post-link" href="{{ "/pm/charter" | prepend: site.baseurl }}">Project Charter</a>
+            </li>
+          </ul>
 
           <hline>
 

@@ -12,8 +12,8 @@ body {
 a {
   color: #1e6bb8;
   text-decoration: none; }
-  a:hover {
-    text-decoration: underline; }
+a:hover {
+  text-decoration: underline; }
 
 .btn {
   display: inline-block;
@@ -77,11 +77,26 @@ a {
   text-align: center;
   background-color: #159957;
   /* background-image: linear-gradient(120deg, #155799, #159957); */
-  background-image: url('../images/header2.jpg'); }
+  background-image: url('../images/header2.jpg');
+
+}
+
+/* Yes, I am a CSS hack */
+.page-header a {
+  color: #FFFFFF;
+  text-decoration: none; }
+
+.big-page-header a {
+  color: #FFFFFF;
+  text-decoration: none; }
 
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem; }
+  margin-bottom: 0.1rem;
+  width: 16em;
+  margin-left: auto;
+  margin-right: auto;
+  }
 
 @media screen and (min-width: 64em) {
   .project-name {
