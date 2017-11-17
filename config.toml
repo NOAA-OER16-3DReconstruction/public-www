@@ -1,0 +1,4 @@
+baseURL = "https://noaa-oer16-3dreconstruction.github.io/public-www/"
+languageCode = "en-us"
+title = "3D Reconstruction from the ROV Deep Discoverer"
+theme = "ananke"
