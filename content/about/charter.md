@@ -1,6 +1,7 @@
 ---
 title: "Charter"
-date: 2017-11-17T12:23:40-08:00
+description: "Project charter, started 10 November 2016"
+date: 2016-11-17
 ---
 
 __Current Version:__ 10 November 2016
