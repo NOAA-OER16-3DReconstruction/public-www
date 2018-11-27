@@ -3,17 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://noaa-oer16-3dreconstruction.github.io/public-www/posts/first-hugo-post/</loc>
+    <lastmod>2017-11-17T11:52:51-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://noaa-oer16-3dreconstruction.github.io/public-www/about/charter/</loc>
+    <lastmod>2016-11-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://noaa-oer16-3dreconstruction.github.io/public-www/</loc>
+    <lastmod>2017-11-17T11:52:51-08:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://noaa-oer16-3dreconstruction.github.io/public-www/about/</loc>
+    <lastmod>2016-11-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://noaa-oer16-3dreconstruction.github.io/public-www/categories/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://noaa-oer16-3dreconstruction.github.io/public-www/posts/</loc>
+    <lastmod>2017-11-17T11:52:51-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://noaa-oer16-3dreconstruction.github.io/public-www/tags/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
