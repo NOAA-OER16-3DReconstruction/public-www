@@ -12,7 +12,7 @@ History available through [Github](https://github.com/NOAA-OER16-3DReconstructio
 
 __Project Start Date:__   1 November 2016
 
-__Project End Date:__  31 October 2017
+__Project End Date:__  31 October 2018
 
 ## Project Description
 
@@ -20,7 +20,7 @@ Produce 3D reconstructions from archival OER video from the _Deep Discoverer (D2
 
 ## Project Boundaries
 
-* Focus on archival data.   __Stretch / phase 2 goal:__ close integration with D2 operations and influencing D2 ops and data retention.
+* Focus on archival data.   _Stretch / phase 2 goal:_ close integration with D2 operations and influencing D2 ops and data retention.
 * Start with post-processing stretch to realtime.
 
 ## Product Goals or Objectives
@@ -77,4 +77,4 @@ All interim reports as specified by sponsor.
 
 Public "diary" or project maintained in blog.
 
-Regular updates with NOAA (?)
+Regular updates with NOAA.
