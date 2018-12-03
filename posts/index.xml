@@ -6,10 +6,21 @@
     <description>Recent content in Posts on 3D Reconstruction from the ROV Deep Discoverer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Nov 2018 11:52:51 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 02 Dec 2018 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://noaa-oer16-3dreconstruction.github.io/public-www/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Experiments in PoTree</title>
+      <link>https://noaa-oer16-3dreconstruction.github.io/public-www/posts/potree-experiments/</link>
+      <pubDate>Sun, 02 Dec 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://noaa-oer16-3dreconstruction.github.io/public-www/posts/potree-experiments/</guid>
+      <description>I&amp;rsquo;m trying PoTree as a tool for publishing point clouds.
+Model &amp;ldquo;approach_wing&amp;rdquo; here
+Model &amp;ldquo;engine_detail&amp;rdquo; here</description>
+    </item>
     
     <item>
       <title>Sample Datasets</title>
