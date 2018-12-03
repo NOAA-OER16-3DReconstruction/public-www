@@ -3,7 +3,7 @@ title: "Experiments in PoTree"
 date: 2018-12-02T12:00:00
 ---
 
-I'm trying[PoTree](http://www.potree.org/) as a tool for publishing point clouds.
+I'm trying [PoTree](http://www.potree.org/) as a tool for publishing point clouds.
 
 Model "approach_wing" [here](https://potree.camhd.science/approach_wing/approach_wing.html)
 
